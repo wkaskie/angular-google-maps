@@ -1,5 +1,5 @@
 
-name: Node.js Package
+name: Pull Request Build
 
 on:
   push:
