@@ -24,7 +24,6 @@ jobs:
       - name: Archive production artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: dist-with-markdown
           path: |
             dist
   publish-gpr:
@@ -40,7 +39,7 @@ jobs:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
       - run: yarn
-      - name: Download a single artifact
+      - name: Download dist folder
         uses: actions/download-artifact@v4
       - name: Publish all jobs
         run: |
