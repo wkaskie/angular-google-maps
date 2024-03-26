@@ -2,6 +2,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "types": ["jest"],
     "outDir": "../../out-tsc/lib",
     "declarationMap": true,
     "declaration": true,

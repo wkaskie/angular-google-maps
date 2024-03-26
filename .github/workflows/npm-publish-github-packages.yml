@@ -30,6 +30,9 @@ jobs:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
-      - run: npm publish
+      - run: npm publish ./dist/core
+      - run: npm publish ./dist/drawing
+      - run: npm publish ./dist/markerclusterer
+      - run: npm publish ./dist/snazzy-info-window
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
