@@ -2191,6 +2191,11 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
+"@types/google.maps@^3.55.5":
+  version "3.55.5"
+  resolved "https://registry.npmjs.org/@types/google.maps/-/google.maps-3.55.5.tgz#cee2391af1e32aae9f1c1a8d0c2dec265fb60645"
+  integrity sha512-U1QwCo1GeeLm0YI/GoHvfd1VfwgnoUSBcKCMXXFAM+2izSSuqqwZUJ9XNO6NxZxmYKjBNI+NF5eGF6uUSb1aSg==
+
 "@types/googlemaps@^3.39.8":
   version "3.39.9"
   resolved "https://registry.npmjs.org/@types/googlemaps/-/googlemaps-3.39.9.tgz"
