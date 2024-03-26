@@ -11,12 +11,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: yarn
-
+      - name: Install Dependencies
+        run: yarn
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-with-markdown
+          path: |
+            dist
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
@@ -30,9 +38,13 @@ jobs:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
       - run: yarn
-      - run: npm publish ./dist/core
-      - run: npm publish ./dist/drawing
-      - run: npm publish ./dist/markerclusterer
-      - run: npm publish ./dist/snazzy-info-window
+      - name: Download a single artifact
+        uses: actions/download-artifact@v4
+      - name: Publish all jobs
+        run: |
+          npm publish ./dist/core
+          npm publish ./dist/drawing
+          npm publish ./dist/markerclusterer
+          npm publish ./dist/snazzy-info-window
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
