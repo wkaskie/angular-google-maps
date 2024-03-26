@@ -1,10 +1,10 @@
 {
   "private": true,
-  "version": "3.0.0-beta.1",
+  "version": "3.0.1-beta.0",
   "description": "Angular components for Google Maps",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SebastianM/angular-google-maps.git"
+    "url": "https://github.com/wkaskie/angular-google-maps.git"
   },
   "keywords": [
     "angular",
@@ -35,10 +35,10 @@
     "apidocs:markerclusterer": "compodoc -p packages/markerclusterer/tsconfig.lib.json --name @agm/markerclusterer  --output docs/public/api-docs/markerclusterer/ --hideGenerator --disableCoverage",
     "apidocs:drawing": "compodoc -p packages/drawing/tsconfig.lib.json --name @agm/drawing  --output docs/public/api-docs/drawing/ --hideGenerator --disableCoverage"
   },
-  "author": "Sebastian Holstein <info@sebastian-holstein.de>",
+  "author": "WaFKa, LLC <info@wafka.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SebastianM/angular-google-maps/issues"
+    "url": "https://github.com/wkaskie/angular-google-maps/issues"
   },
   "homepage": "https://angular-maps.com",
   "dependencies": {
