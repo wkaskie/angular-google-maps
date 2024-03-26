@@ -1,5 +1,5 @@
 {
-  "name": "@agm/drawing",
+  "name": "@wkaskie/agm-drawing",
   "version": "3.0.1-beta.0",
   "description": "Angular Google Maps (AGM) extension for google maps drawing library",
   "author": "WaFKa, LLC",
