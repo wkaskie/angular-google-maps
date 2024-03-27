@@ -10,7 +10,7 @@ Angular Google Maps provides a package that allows users to draw new shapes on t
 First make sure that you install the following NPM packages:
 
 ```bash
-npm install @agm/core @agm/drawing
+npm install @wkaskie/agm-core @wkaskie/agm-drawing
 ```
 
 ## Loading the modules
@@ -18,8 +18,8 @@ npm install @agm/core @agm/drawing
 Update your root component (e.g. src/app/app.module.ts) and import the following modules:
 
 ```typescript
-import { AgmCoreModule } from '@agm/core';
-import { AgmDrawingModule } from '@agm/drawing';
+import { AgmCoreModule } from '@wkaskie/agm-core';
+import { AgmDrawingModule } from '@wkaskie/agm-drawing';
 
 @NgModule({
   declarations: [
