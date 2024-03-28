@@ -7,12 +7,12 @@ this package levereges the [@google/markerclustererplus][markerclustererplus] to
 
 ## Installation
 
-@wkaskie/agm-markerclusterer has a peer depedency on [markerclustererplus][markerclustererplus]
+@wafka/agm-markerclusterer has a peer depedency on [markerclustererplus][markerclustererplus]
 
 ```shell
-npm install @google/markerclustererplus @wkaskie/agm-markerclusterer --save
+npm install @google/markerclustererplus @wafka/agm-markerclusterer --save
 # or
-yarn add @google/markerclustererplus @wkaskie/agm-markerclusterer
+yarn add @google/markerclustererplus @wafka/agm-markerclusterer
 ```
 
 ## Usage
@@ -30,8 +30,8 @@ yarn add @google/markerclustererplus @wkaskie/agm-markerclusterer
     import { AppComponent } from './app.component';
 
     // add these imports
-    import { AgmCoreModule } from '@wkaskie/agm-core';
-    import { AgmMarkerClustererModule } from '@wkaskie/agm-markerclusterer';
+    import { AgmCoreModule } from '@wafka/agm-core';
+    import { AgmMarkerClustererModule } from '@wafka/agm-markerclusterer';
 
     @NgModule({
       declarations: [

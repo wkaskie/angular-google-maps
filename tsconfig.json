@@ -18,19 +18,19 @@
       "dom"
     ],
     "paths": {
-      "@wkaskie/agm-core": [
+      "@wafka/agm-core": [
         "dist/core/agm-core",
         "dist/core"
       ],
-      "@wkaskie/agm-markerclusterer": [
+      "@wafka/agm-markerclusterer": [
         "dist/markerclusterer/agm-markerclusterer",
         "dist/markerclusterer"
       ],
-      "@wkaskie/agm-snazzy-info-window": [
+      "@wafka/agm-snazzy-info-window": [
         "dist/snazzy-info-window/agm-snazzy-info-window",
         "dist/snazzy-info-window"
       ],
-      "@wkaskie/agm-drawing": [
+      "@wafka/agm-drawing": [
         "dist/drawing/drawing",
         "dist/drawing"
       ]

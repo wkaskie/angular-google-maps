@@ -34,11 +34,11 @@ jobs:
       contents: read
       packages: write
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 20
-          registry-url: https://npm.pkg.github.com/
+          node-version: '20.x'
+          registry-url: 'https://registry.npmjs.org'
       - run: yarn
       - name: Download dist folder
         uses: actions/download-artifact@v4
@@ -49,4 +49,4 @@ jobs:
           npm publish ./dist/markerclusterer
           npm publish ./dist/snazzy-info-window
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

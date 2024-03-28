@@ -3,7 +3,7 @@ module.exports = {
   //https://github.com/thymikee/jest-preset-angular/issues/167#issuecomment-459686655
   modulePathIgnorePatterns: ["<rootDir>/dist/"],
   moduleNameMapper: {
-    "^@wkaskie/(.*)$": "<rootDir>/dist/$1",
+    "^@wafka/(.*)$": "<rootDir>/dist/$1",
   },
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
 };

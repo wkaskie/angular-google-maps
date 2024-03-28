@@ -1,4 +1,4 @@
-import { AgmMarker, GoogleMapsAPIWrapper, MapsAPILoader, MarkerManager } from '@wkaskie/agm-core';
+import { AgmMarker, GoogleMapsAPIWrapper, MapsAPILoader, MarkerManager } from '@wafka/agm-core';
 import { AfterViewInit, Component, ContentChild, ElementRef, EventEmitter, Host, Input, OnChanges, OnDestroy, Optional, Output, SimpleChanges, SkipSelf, TemplateRef, ViewChild, ViewContainerRef } from '@angular/core';
 
 declare var require: any;

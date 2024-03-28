@@ -7,9 +7,9 @@ this package adds drawing support to [AGM][agm].
 ## Installation
 
 ```sh
-npm install @wkaskie/agm-drawing
+npm install @wafka/agm-drawing
 # or
-yarn add @wkaskie/agm-drawing
+yarn add @wafka/agm-drawing
 ```
 
 ## Usage
@@ -21,8 +21,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component'
 // add these imports
-import { AgmCoreModule } from '@wkaskie/agm-core';
-import { AgmDrawingModule } from '@wkaskie/agm-drawing'
+import { AgmCoreModule } from '@wafka/agm-core';
+import { AgmDrawingModule } from '@wafka/agm-drawing'
 @NgModule({
   declarations: [
     AppComponent

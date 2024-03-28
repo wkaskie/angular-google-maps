@@ -6,11 +6,11 @@ title = "API Docs for Angular Google Maps"
 
 **Here you find the API docs for the @agm Packages:**
 
-* [@wkaskie/agm-core](https://angular-maps.com/api-docs/agm-core/modules/AgmCoreModule.html)
+* [@wafka/agm-core](https://angular-maps.com/api-docs/agm-core/modules/AgmCoreModule.html)
   Provides Angular integration solutions for the official Google Maps Core API v3
-* [@wkaskie/agm-snazzy-info-window](https://angular-maps.com/api-docs/agm-snazzy-info-window/modules/AgmSnazzyInfoWindowModule.html)
+* [@wafka/agm-snazzy-info-window](https://angular-maps.com/api-docs/agm-snazzy-info-window/modules/AgmSnazzyInfoWindowModule.html)
   Styled Info Windows with [Snazzy Info Window](https://github.com/atmist/snazzy-info-window)
-* [@wkaskie/agm-markerclusterer](https://angular-maps.com/api-docs/markerclusterer/modules/AgmMarkerClustererModule.html)
+* [@wafka/agm-markerclusterer](https://angular-maps.com/api-docs/markerclusterer/modules/AgmMarkerClustererModule.html)
   Clustered markers with [markerclustererplus](https://github.com/googlemaps/v3-utility-library/tree/master/packages/markerclustererplus)
-* [@wkaskie/agm-drawing](https://angular-maps.com/api-docs/drawing/modules/AgmDrawingModule.html)
+* [@wafka/agm-drawing](https://angular-maps.com/api-docs/drawing/modules/AgmDrawingModule.html)
   Drawing on the map with

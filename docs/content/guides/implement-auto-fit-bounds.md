@@ -25,7 +25,7 @@ Let`s say we have a custom component, that extends the features of AGM:
 To add support the auto fit bounds feature for `<my-custom-component>`, we have to implement the `FitBoundsAccessor`:
 
 ```typescript
-import { FitBoundsAccessor, FitBoundsDetails } from '@wkaskie/agm-core';
+import { FitBoundsAccessor, FitBoundsDetails } from '@wafka/agm-core';
 import { forwardRef, Component } from '@angular/core';
 
 @Component({

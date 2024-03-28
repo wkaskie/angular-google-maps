@@ -1,4 +1,4 @@
-import { AgmCoreModule } from '@wkaskie/agm-core';
+import { AgmCoreModule } from '@wafka/agm-core';
 import { NgModule } from '@angular/core';
 import { AgmDrawingManager } from './directives/drawing-manager';
 import { AgmDrawingManagerTrigger } from './directives/drawing-manager-trigger';

@@ -192,8 +192,8 @@ Angular 2.x is not officially supported anymore. Please update to Angular 4.x or
 
 Two new NPM packages!
 
-* @wkaskie/agm-snazzy-info-window for Snazzy Info Window support with AGM
-* @wkaskie/agm-js-marker-clusterer for clustered markers support with AGM
+* @wafka/agm-snazzy-info-window for Snazzy Info Window support with AGM
+* @wafka/agm-js-marker-clusterer for clustered markers support with AGM
 
 Detailed feature list:
 * add clustered markers support ([5cbc515](https://github.com/SebastianM/angular-google-maps/commit/5cbc515)), closes [#1044](https://github.com/SebastianM/angular-google-maps/issues/1044)
@@ -238,7 +238,7 @@ ps://github.com/SebastianM/angular-google-maps/issues/740) [#972](https://github
 The project and NPM package name changes:
 
 Old name: angular2-google-maps
-New NPM pkg name: @wkaskie/agm-core
+New NPM pkg name: @wafka/agm-core
 
 To have a consistent naming pattern, we also change the
 component/directive names:

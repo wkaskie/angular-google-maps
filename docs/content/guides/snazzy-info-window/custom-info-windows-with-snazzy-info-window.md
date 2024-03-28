@@ -4,15 +4,15 @@ draft = false
 title = "Styled Info Windows with Snazzy Info Window & Angular Google Maps"
 +++
 
-Angular Google Maps provides a package that allows you to use [Snazzy Info Window](https://github.com/atmist/snazzy-info-window) together with @wkaskie/agm-core. 'Snazzy Info Window' allows you to create custom info window that are styleable via CSS or Angular inputs.
+Angular Google Maps provides a package that allows you to use [Snazzy Info Window](https://github.com/atmist/snazzy-info-window) together with @wafka/agm-core. 'Snazzy Info Window' allows you to create custom info window that are styleable via CSS or Angular inputs.
 
-Please note: The @wkaskie/agm-snazzy-info-window package currently supports Angular 4.x only.
+Please note: The @wafka/agm-snazzy-info-window package currently supports Angular 4.x only.
 
 ## Install the needed packages
 First make sure that you install the following NPM packages:
 
 ```bash
-npm install @wkaskie/agm-core @wkaskie/agm-snazzy-info-window snazzy-info-window@^1.1.0
+npm install @wafka/agm-core @wafka/agm-snazzy-info-window snazzy-info-window@^1.1.0
 ```
 
 Make sure you have a Google Maps API Key - [you can get one here](https://developers.google.com/maps/documentation/javascript/get-api-key?hl=de).
@@ -27,8 +27,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // add these imports
-import { AgmCoreModule } from '@wkaskie/agm-core';
-import { AgmSnazzyInfoWindowModule } from '@wkaskie/agm-snazzy-info-window';
+import { AgmCoreModule } from '@wafka/agm-core';
+import { AgmSnazzyInfoWindowModule } from '@wafka/agm-snazzy-info-window';
 
 @NgModule({
   declarations: [
