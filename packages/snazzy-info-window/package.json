@@ -1,6 +1,6 @@
 {
   "name": "@wafka/agm-snazzy-info-window",
-  "version": "3.0.1-beta.0",
+  "version": "3.0.1-beta.1",
   "description": "Angular Google Maps (AGM) package for Snazzy Info Window support",
   "author": "WaFKa, LLC <info@wafka.com>",
   "license": "MIT",
@@ -20,7 +20,7 @@
     "snazzy-info-window"
   ],
   "peerDependencies": {
-    "@wafka/agm-core": "3.0.1-beta.0",
+    "@wafka/agm-core": "3.0.1-beta.1",
     "@angular/common": "^15.2.10 || ^16.0.0",
     "@angular/core": "^15.2.10 || ^16.0.0",
     "snazzy-info-window": "^1.1.0"
@@ -30,6 +30,6 @@
   },
   "devDependencies": {
     "@types/googlemaps": "^3.39.8",
-    "@wafka/agm-core": "3.0.1-beta.0"
+    "@wafka/agm-core": "3.0.1-beta.1"
   }
 }
