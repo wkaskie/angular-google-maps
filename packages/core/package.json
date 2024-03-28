@@ -1,5 +1,8 @@
 {
   "name": "@wafka/agm-core",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "3.0.1-beta.1",
   "description": "Angular components for Google Maps",
   "author": "WaFKa, LLC <info@wafka.com>",

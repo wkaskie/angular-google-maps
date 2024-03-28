@@ -1,5 +1,8 @@
 {
   "name": "@wafka/agm-drawing",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "3.0.1-beta.1",
   "description": "Angular Google Maps (AGM) extension for google maps drawing library",
   "author": "WaFKa, LLC",

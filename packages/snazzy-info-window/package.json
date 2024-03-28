@@ -1,5 +1,8 @@
 {
   "name": "@wafka/agm-snazzy-info-window",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "3.0.1-beta.1",
   "description": "Angular Google Maps (AGM) package for Snazzy Info Window support",
   "author": "WaFKa, LLC <info@wafka.com>",
